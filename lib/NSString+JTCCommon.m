@@ -7,7 +7,6 @@
 //
 
 #import "NSString+JTCCommon.h"
-#import <nv-ios-version/System.h>
 @implementation NSString (JTCCommon)
 -(BOOL) isEmpty{
     if (!self) {

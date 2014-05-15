@@ -8,7 +8,7 @@
 
 #ifndef JTCCommonSample_JTCCommon_h
 #define JTCCommonSample_JTCCommon_h
-
+#import "NSString+JTCCommon.h"
 
 
 #endif

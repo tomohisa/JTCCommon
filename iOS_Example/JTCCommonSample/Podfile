@@ -1,4 +1,2 @@
 platform :ios, '7.0'
 
-pod 'libextobjc', '~> 0.4'
-pod 'nv-ios-version', :git => 'https://github.com/tomohisa/nv-ios-version.git', :branch => 'master'
