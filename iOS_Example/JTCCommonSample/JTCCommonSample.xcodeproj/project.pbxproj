@@ -22,9 +22,9 @@
 		01AE25A519244C170019AE2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AE258419244C170019AE2A /* UIKit.framework */; };
 		01AE25AD19244C170019AE2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AE25AB19244C170019AE2A /* InfoPlist.strings */; };
 		01AE25AF19244C170019AE2A /* JTCCommonSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE25AE19244C170019AE2A /* JTCCommonSampleTests.m */; };
-		01AE25BF19244D430019AE2A /* NSString+JTCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE25BE19244D430019AE2A /* NSString+JTCCommon.m */; };
-		01AE25C019244D430019AE2A /* NSString+JTCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE25BE19244D430019AE2A /* NSString+JTCCommon.m */; };
 		01AE25C2192458EC0019AE2A /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AE25C1192458EC0019AE2A /* AdSupport.framework */; };
+		01AE25C719245E100019AE2A /* NSString+JTCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE25C619245E100019AE2A /* NSString+JTCCommon.m */; };
+		01AE25C819245E100019AE2A /* NSString+JTCCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AE25C619245E100019AE2A /* NSString+JTCCommon.m */; };
 		D24A14AB006A42DEB59A66DE /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B20F417C5A4495B02F1FA6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -60,10 +60,10 @@
 		01AE25AA19244C170019AE2A /* JTCCommonSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTCCommonSampleTests-Info.plist"; sourceTree = "<group>"; };
 		01AE25AC19244C170019AE2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01AE25AE19244C170019AE2A /* JTCCommonSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTCCommonSampleTests.m; sourceTree = "<group>"; };
-		01AE25BC19244D150019AE2A /* JTCCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTCCommon.h; sourceTree = "<group>"; };
-		01AE25BD19244D430019AE2A /* NSString+JTCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JTCCommon.h"; sourceTree = "<group>"; };
-		01AE25BE19244D430019AE2A /* NSString+JTCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JTCCommon.m"; sourceTree = "<group>"; };
 		01AE25C1192458EC0019AE2A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		01AE25C419245E100019AE2A /* JTCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCCommon.h; sourceTree = "<group>"; };
+		01AE25C519245E100019AE2A /* NSString+JTCCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JTCCommon.h"; sourceTree = "<group>"; };
+		01AE25C619245E100019AE2A /* NSString+JTCCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JTCCommon.m"; sourceTree = "<group>"; };
 		47AD5390E8CA447D803D5093 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		99B20F417C5A4495B02F1FA6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -97,7 +97,7 @@
 		01AE257419244C170019AE2A = {
 			isa = PBXGroup;
 			children = (
-				01AE25B819244C9C0019AE2A /* lib */,
+				01AE25C319245E100019AE2A /* lib */,
 				01AE258619244C170019AE2A /* JTCCommonSample */,
 				01AE25A819244C170019AE2A /* JTCCommonSampleTests */,
 				01AE257F19244C170019AE2A /* Frameworks */,
@@ -173,14 +173,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		01AE25B819244C9C0019AE2A /* lib */ = {
+		01AE25C319245E100019AE2A /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				01AE25BC19244D150019AE2A /* JTCCommon.h */,
-				01AE25BD19244D430019AE2A /* NSString+JTCCommon.h */,
-				01AE25BE19244D430019AE2A /* NSString+JTCCommon.m */,
+				01AE25C419245E100019AE2A /* JTCCommon.h */,
+				01AE25C519245E100019AE2A /* NSString+JTCCommon.h */,
+				01AE25C619245E100019AE2A /* NSString+JTCCommon.m */,
 			);
-			path = lib;
+			name = lib;
+			path = ../../lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,7 +320,7 @@
 				01AE259719244C170019AE2A /* MasterViewController.m in Sources */,
 				01AE258D19244C170019AE2A /* main.m in Sources */,
 				01AE259A19244C170019AE2A /* DetailViewController.m in Sources */,
-				01AE25BF19244D430019AE2A /* NSString+JTCCommon.m in Sources */,
+				01AE25C719245E100019AE2A /* NSString+JTCCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01AE25C019244D430019AE2A /* NSString+JTCCommon.m in Sources */,
+				01AE25C819245E100019AE2A /* NSString+JTCCommon.m in Sources */,
 				01AE25AF19244C170019AE2A /* JTCCommonSampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
