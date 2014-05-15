@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JTCCommon"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "Common Category or Useful Methods We use"
 
   s.description  = <<-DESC
