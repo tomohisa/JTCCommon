@@ -7,6 +7,9 @@
 //
 
 #import "NSString+JTCCommon.h"
+#import <ifaddrs.h>
+#import <arpa/inet.h>
+
 @implementation NSString (JTCCommon)
 -(BOOL) isEmpty{
     if (!self) {
@@ -83,8 +86,6 @@
     
 }
 
-#import <ifaddrs.h>
-#import <arpa/inet.h>
 
 
 
